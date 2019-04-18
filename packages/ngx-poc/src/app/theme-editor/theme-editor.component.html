@@ -1,0 +1,9 @@
+<div>
+    <form (ngSubmit)="onSubmit()">
+      <label for="color">Cor:</label>
+      <input type="text" [(ngModel)]="theme.colorBase" name="color">
+      <label for="size">Tamanho Fonte:</label>
+      <input type="text" [(ngModel)]="theme.textSize" name="size">
+      <input type="submit" value="Salvar">
+    </form>
+  </div>
